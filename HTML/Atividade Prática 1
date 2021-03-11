@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira Página</title>
+    <style>
+        h1 {
+            color: green
+        }
+
+        h2 {
+            color: blueviolet
+        }
+
+        h3 {
+            color: red
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore saepe vero officia optio hic nam consequatur
+        consequuntur facilis rem dicta neque eos est praesentium eum, ratione distinctio totam eius tenetur?</h2>
+    <br>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem asperiores fuga, alias veniam ratione
+        cupiditate accusantium quasi molestiae itaque molestias nesciunt, doloremque quae commodi officia laborum odit
+        est, optio repellat.</h1>
+    <br>
+    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea odio cum animi omnis, recusandae magni facilis quam
+        fugiat corrupti dignissimos molestias soluta quos possimus itaque vel ab similique incidunt velit!</h3>
+
+    <figure>
+        <img src="https://www.petlove.com.br/images/breeds/193219/profile/original/labrador-p.jpg?1532539172"
+            alt="Imagem" width="200" height="200">
+        <figcaption>Imagem Labrador</figcaption>
+    </figure>
+
+    <h1>Exemplo de uso do Link </h1>
+    <br>
+    <a href="http://www.uniceub.br">Uniceub - Centro Universitário</a>
+    <br>
+</body>
+
+</html>
