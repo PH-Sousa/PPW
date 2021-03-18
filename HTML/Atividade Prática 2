@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira Página</title>
+    <link rel="stylesheet" type="text/css" href="css/minhaPrimeiraPagina.css">
+
+</head>
+
+<body>
+
+    <h2>Página de Demonstração Atividade 1</h2>
+    <div>
+        <h3>Exemplos de Links e Imagens</h3>
+        <figure>
+            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGqFtbWTXNxRQ/profile-displayphoto-shrink_800_800/0/1532388620517?e=1621468800&v=beta&t=F7FwLkCL_SP3Io2_FMUl2Tai8NDqAVrGXH_CKZo6yFI"
+                alt="Imagem" width="200" height="200">
+            <figcaption style="font-weight: bolder;">Pedro Henrique Sousa</figcaption>
+        </figure>
+
+        <h4>LinkedIn - Pedro Sousa </h4>
+
+        <a href="https://www.linkedin.com/in/pedrosousa90/">LinkedIn - Pedro Henrique Sousa</a>
+    </div>
+
+    <div>
+        <h3>Exemplos de Formulários</h3>
+
+        <form action="https:paginadedestino.com.br" method="get">
+            <div>
+                <fieldset style="width: 50%; margin: 0px auto;">
+                    <legend style="font-weight: bolder;">Dados Pessoais</legend>
+                    <div>
+                        <label for="Nome">Nome</label>
+                        <input type="text" name="txtNome" id="txtNome" maxlength="50">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="E-mail">E-mail</label>
+                        <input type="text" name="txtE-mail" id="txtE-mail">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Telefone">Telefone</label>
+                        <input type="number" name="numTelefone" id="numTelefone" min="1" max="11">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Profissão">Profissão</label>
+                        <select name="txtProfissao" id="txtProfissao">
+                            <option value="Administrador">Administrador</option>
+                            <option value="Advogado">Advogado</option>
+                            <option value="Matemático">Matemático</option>
+                            <option value="Professor">Professor</option>
+                            <option value="Analista de Sistemas">Analista de Sistemas</option>
+                            <option value="Médico">Médico</option>
+                        </select>
+
+                    </div>
+                    <br>
+                    <div>
+                        <Legend style="font-weight: bolder;">Gênero</Legend>
+                        <input type="radio" name="rdGenero" id="rdGenero" value="Feminino">Feminino
+                        <input type="radio" name="rdGenero" id="rdGenero" value="Masculino">Masculino
+                        <input type="radio" name="rdGenero" id="rdGenero" value="Outros">Outros
+                    </div>
+                    <br>
+                    <button disabled="disabled">Enviar</button>
+                </fieldset>
+        </form>
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>
